@@ -52,24 +52,35 @@ android {
         buildConfigField "String", "TERMUX_PACKAGE_VARIANT", "\"" + project.ext.packageVariant + "\"" // Used by TermuxApplication class
 
 <<<<<<< HEAD
-        manifestPlaceholders.TERMUX_PACKAGE_NAME = "com.yakuburj.terminal"
-        manifestPlaceholders.TERMUX_APP_NAME = "com.yakuburj.terminal"
-        manifestPlaceholders.TERMUX_API_APP_NAME = "yakuburj:API"
-        manifestPlaceholders.TERMUX_BOOT_APP_NAME = "yakuburj:Boot"
-        manifestPlaceholders.TERMUX_FLOAT_APP_NAME = "yakuburj:Float"
-        manifestPlaceholders.TERMUX_STYLING_APP_NAME = "yakuburj:Styling"
-        manifestPlaceholders.TERMUX_TASKER_APP_NAME = "yakuburj:Tasker"
-        manifestPlaceholders.TERMUX_WIDGET_APP_NAME = "yakuburj:Widget"
+<<<<<<< HEAD
+        manifestPlaceholders.TERMUX_PACKAGE_NAME = "com.yakuburj-terminal"
+        manifestPlaceholders.TERMUX_APP_NAME = "com.yakuburj-terminal"
+        manifestPlaceholders.TERMUX_API_APP_NAME = "yakuburj-terminal:API"
+        manifestPlaceholders.TERMUX_BOOT_APP_NAME = "yakuburj-terminal:Boot"
+        manifestPlaceholders.TERMUX_FLOAT_APP_NAME = "yakuburj-terminal:Float"
+        manifestPlaceholders.TERMUX_STYLING_APP_NAME = "yakuburj-terminal:Styling"
+        manifestPlaceholders.TERMUX_TASKER_APP_NAME = "yakuburj-terminal:Tasker"
+        manifestPlaceholders.TERMUX_WIDGET_APP_NAME = "yakuburj-terminal:Widget"
 =======
-        manifestPlaceholders.TERMUX_PACKAGE_NAME = "com.'yakuburj"
+        manifestPlaceholders.TERMUX_PACKAGE_NAME = "com.'yakuburj-terminal"
         manifestPlaceholders.TERMUX_APP_NAME = "yakuburj-terminal"
-        manifestPlaceholders.TERMUX_API_APP_NAME = "yakuburj':API"
-        manifestPlaceholders.TERMUX_BOOT_APP_NAME = "yakuburj':Boot"
-        manifestPlaceholders.TERMUX_FLOAT_APP_NAME = "yakuburj':Float"
-        manifestPlaceholders.TERMUX_STYLING_APP_NAME = "yakuburj':Styling"
-        manifestPlaceholders.TERMUX_TASKER_APP_NAME = "yakuburj':Tasker"
-        manifestPlaceholders.TERMUX_WIDGET_APP_NAME = "Termux:Widget"
->>>>>>> 9d3c4bb8 (Rename app to Yakuburj Terminal)
+        manifestPlaceholders.TERMUX_API_APP_NAME = "yakuburj-erminal':API"
+        manifestPlaceholders.TERMUX_BOOT_APP_NAME = "yakuburj-terminal':Boot"
+        manifestPlaceholders.TERMUX_FLOAT_APP_NAME = "yakuburj-terminal':Float"
+        manifestPlaceholders.TERMUX_STYLING_APP_NAME = "yakuburj-terminal':Styling"
+        manifestPlaceholders.TERMUX_TASKER_APP_NAME = "yakuburj-terminal'Tacker"
+        manifestPlaceholders.TERMUX_WIDGET_APP_NAME = "yakuburj-terminal':Widget"
+>>>>>>> 9d3c4bb8 (Rename app to Yakuburj-Terminal)
+=======
+        manifestPlaceholders.TERMUX_PACKAGE_NAME = "com.yakuburj-terminal"
+        manifestPlaceholders.TERMUX_APP_NAME = "yakuburj-terminal"
+        manifestPlaceholders.TERMUX_API_APP_NAME = "yakuburj-terminal':API"
+        manifestPlaceholders.TERMUX_BOOT_APP_NAME = "yakuburj-terminal':Boot"
+        manifestPlaceholders.TERMUX_FLOAT_APP_NAME = "yakuburj-terminal':Float"
+        manifestPlaceholders.TERMUX_STYLING_APP_NAME = "yakuburj-terminal':Styling"
+        manifestPlaceholders.TERMUX_TASKER_APP_NAME = "yakuburj-terminal':Tasker"
+        manifestPlaceholders.TERMUX_WIDGET_APP_NAME = "yakuburj-terminal':Widget"
+>>>>>>> 1c297cd1 (Update app build configuration)
 
         externalNativeBuild {
             ndkBuild {
