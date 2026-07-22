@@ -51,14 +51,25 @@ android {
 
         buildConfigField "String", "TERMUX_PACKAGE_VARIANT", "\"" + project.ext.packageVariant + "\"" // Used by TermuxApplication class
 
+<<<<<<< HEAD
         manifestPlaceholders.TERMUX_PACKAGE_NAME = "com.yakuburj.terminal"
         manifestPlaceholders.TERMUX_APP_NAME = "com.yakuburj.terminal"
         manifestPlaceholders.TERMUX_API_APP_NAME = "yakuburj:API"
         manifestPlaceholders.TERMUX_BOOT_APP_NAME = "yakuburj:Boot"
-        manifestPlaceholders.TERMUX_FLOAT_APP_NAME = "yakubury:Float"
+        manifestPlaceholders.TERMUX_FLOAT_APP_NAME = "yakuburj:Float"
         manifestPlaceholders.TERMUX_STYLING_APP_NAME = "yakuburj:Styling"
         manifestPlaceholders.TERMUX_TASKER_APP_NAME = "yakuburj:Tasker"
         manifestPlaceholders.TERMUX_WIDGET_APP_NAME = "yakuburj:Widget"
+=======
+        manifestPlaceholders.TERMUX_PACKAGE_NAME = "com.'yakuburj"
+        manifestPlaceholders.TERMUX_APP_NAME = "yakuburj-terminal"
+        manifestPlaceholders.TERMUX_API_APP_NAME = "yakuburj':API"
+        manifestPlaceholders.TERMUX_BOOT_APP_NAME = "yakuburj':Boot"
+        manifestPlaceholders.TERMUX_FLOAT_APP_NAME = "yakuburj':Float"
+        manifestPlaceholders.TERMUX_STYLING_APP_NAME = "yakuburj':Styling"
+        manifestPlaceholders.TERMUX_TASKER_APP_NAME = "yakuburj':Tasker"
+        manifestPlaceholders.TERMUX_WIDGET_APP_NAME = "Termux:Widget"
+>>>>>>> 9d3c4bb8 (Rename app to Yakuburj Terminal)
 
         externalNativeBuild {
             ndkBuild {
@@ -85,7 +96,7 @@ android {
             keyPassword 'xrj45yWGLbsO7W0v'
         }
     }
-
+7
     buildTypes {
         release {
             minifyEnabled true
@@ -96,11 +107,11 @@ android {
         debug {
             signingConfig signingConfigs.debug
         }
-    }
+ 7   }
 
     compileOptions {
         // Flag to enable support for the new language APIs
-        coreLibraryDesugaringEnabled true
+  777      coreLibraryDesugaringEnabled true
 
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
