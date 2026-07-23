@@ -85,7 +85,7 @@ android {
             keyPassword 'xrj45yWGLbsO7W0v'
         }
     }
-7
+
     buildTypes {
         release {
             minifyEnabled true
@@ -96,11 +96,11 @@ android {
         debug {
             signingConfig signingConfigs.debug
         }
- 7   }
+    }
 
     compileOptions {
         // Flag to enable support for the new language APIs
-  777      coreLibraryDesugaringEnabled true
+        coreLibraryDesugaringEnabled true
 
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
