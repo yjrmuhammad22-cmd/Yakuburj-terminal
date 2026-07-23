@@ -51,8 +51,6 @@ android {
 
         buildConfigField "String", "TERMUX_PACKAGE_VARIANT", "\"" + project.ext.packageVariant + "\"" // Used by TermuxApplication class
 
-<<<<<<< HEAD
-<<<<<<< HEAD
         manifestPlaceholders.TERMUX_PACKAGE_NAME = "com.yakuburj.terminal"
         manifestPlaceholders.TERMUX_APP_NAME = "com.yakuburj.terminal"
         manifestPlaceholders.TERMUX_API_APP_NAME = "yakuburj.terminal:API"
