@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <!DOCTYPE resources [
-    <!ENTITY TERMUX_PACKAGE_NAME "com.termux">
-    <!ENTITY TERMUX_APP_NAME "yakuburj-terminal">
+    <!ENTITY TERMUX_PACKAGE_NAME "com.yakuburj.terminal">
+    <!ENTITY TERMUX_APP_NAME "yakuburj.terminal">
     <!ENTITY TERMUX_API_APP_NAME "Termux:API">
     <!ENTITY TERMUX_BOOT_APP_NAME "Termux:Boot">
     <!ENTITY TERMUX_FLOAT_APP_NAME "Termux:Float">
@@ -31,12 +31,12 @@
     <string name="bootstrap_error_body">&TERMUX_APP_NAME; was unable to install the bootstrap packages.</string>
     <string name="bootstrap_error_abort">Abort</string>
     <string name="bootstrap_error_try_again">Try again</string>
-    <string name="bootstrap_error_not_primary_user_message">&TERMUX_APP_NAME; can only be run as the primary user.
-        \nBootstrap binaries compiled for &TERMUX_APP_NAME; have hardcoded $PREFIX path and cannot be installed
+    <string name="bootstrap_error_not_primary_user_message">'yakuburj.terminal'; can only be run as the primary user.
+        \nBootstrap binaries compiled for 'yakuburj.terminal'; have hardcoded $PREFIX path and cannot be installed
         under any path other than:\n%1$s.</string>
-    <string name="bootstrap_error_installed_on_portable_sd">&TERMUX_APP_NAME; cannot be installed on
+    <string name="bootstrap_error_installed_on_portable_sd">'yakuburj.terminal'; cannot be installed on
         portable/external/removable sd card on your device.
-        \nBootstrap binaries compiled for &TERMUX_APP_NAME; have hardcoded $PREFIX path and cannot be installed
+        \nBootstrap binaries compiled for 'yakuburj.terminal'; have hardcoded $PREFIX path and cannot be installed
         under any path other than:\n%1$s.</string>
 
 
@@ -91,7 +91,7 @@
     <string name="msg_generating_report">Generating Report</string>
     <string name="msg_add_termux_debug_info">Add termux debug info to report?</string>
 
-    <string name="error_styling_not_installed">The &TERMUX_STYLING_APP_NAME; Plugin App is not installed.</string>
+    <string name="error_styling_not_installed">The 'yakuburj.terminal'; Plugin App is not installed.</string>
     <string name="action_styling_install">Install</string>
 
 
@@ -106,7 +106,7 @@
     <!-- TermuxService -->
     <string name="error_display_over_other_apps_permission_not_granted_to_start_terminal">&TERMUX_APP_NAME; requires
         \"Display over other apps\" permission to start terminal sessions from background on Android >= 10.
-        Grants it from Settings -> Apps -> &TERMUX_APP_NAME; -> Advanced</string>
+        Grants it from Settings -> Apps -> 'yakuburj.terminal'; -> Advanced</string>
     <string name="error_termux_service_invalid_execution_command_runner">Invalid execution command runner to TermuxService: `%1$s`</string>
     <string name="error_termux_service_unsupported_execution_command_runner">Unsupported execution command runner to TermuxService: `%1$s`</string>
     <string name="error_termux_service_unsupported_execution_command_shell_create_mode">Unsupported execution command shell create mode to TermuxService: `%1$s`</string>
@@ -136,11 +136,11 @@
 
 
     <!-- Termux Settings -->
-    <string name="title_activity_termux_settings">&TERMUX_APP_NAME; Settings</string>
+    <string name="title_activity_termux_settings">'yakuburj.terminal'; Settings</string>
 
     <!-- Termux App Preferences -->
-    <string name="termux_preferences_title">&TERMUX_APP_NAME;</string>
-    <string name="termux_preferences_summary">Preferences for &TERMUX_APP_NAME; app</string>
+    <string name="termux_preferences_title">'yakuburj.terminal';</string>
+    <string name="termux_preferences_summary">Preferences for 'yakuburj.terminal'; app</string>
 
         <!-- Debugging Preferences -->
         <string name="termux_debugging_preferences_title">Debugging</string>
@@ -206,26 +206,27 @@
 
 
     <!-- Termux:API App Preferences -->
-    <string name="termux_api_preferences_title">&TERMUX_API_APP_NAME;</string>
-    <string name="termux_api_preferences_summary">Preferences for &TERMUX_API_APP_NAME; app</string>
+    <string name="termux_api_preferences_title">'yakuburj
+terminal';</string>
+    <string name="termux_api_preferences_summary">Preferences for 'yakuburj.terminal'; app</string>
 
 
 
     <!-- Termux:Float App Preferences -->
-    <string name="termux_float_preferences_title">&TERMUX_FLOAT_APP_NAME;</string>
-    <string name="termux_float_preferences_summary">Preferences for &TERMUX_FLOAT_APP_NAME; app</string>
+    <string name="termux_float_preferences_title">'yakuburj.terminal';</string>
+    <string name="termux_float_preferences_summary">Preferences for 'yakuburj.terminal'; app</string>
 
 
 
     <!-- Termux:Tasker App Preferences -->
-    <string name="termux_tasker_preferences_title">&TERMUX_TASKER_APP_NAME;</string>
-    <string name="termux_tasker_preferences_summary">Preferences for &TERMUX_TASKER_APP_NAME; app</string>
+    <string name="termux_tasker_preferences_title">'yakuburj.terminal';</string>
+    <string name="termux_tasker_preferences_summary">Preferences for 'yakuburj.terminal'; app</string>
 
 
 
     <!-- Termux:Widget App Preferences -->
-    <string name="termux_widget_preferences_title">&TERMUX_WIDGET_APP_NAME;</string>
-    <string name="termux_widget_preferences_summary">Preferences for &TERMUX_WIDGET_APP_NAME; app</string>
+    <string name="termux_widget_preferences_title">'yakuburj.terminal';</string>
+    <string name="termux_widget_preferences_summary">Preferences for 'yakuburj.terminal'; app</string>
 
 
 

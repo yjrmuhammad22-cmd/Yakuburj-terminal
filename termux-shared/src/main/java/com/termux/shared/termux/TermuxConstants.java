@@ -291,7 +291,7 @@ import java.util.List;
  * it for interacting with termux apps. If changes are made to this file, increment the version number
  * and add an entry in the Changelog section above.
  *
- * Termux app default package name is "com.termux" and is used in {@link #TERMUX_PREFIX_DIR_PATH}.
+ * Termux app default package name is "com.yakuburj.terminal" and is used in {@link #TERMUX_PREFIX_DIR_PATH}.
  * The binaries compiled for termux have {@link #TERMUX_PREFIX_DIR_PATH} hardcoded in them but it
  * can be changed during compilation.
  *
@@ -321,7 +321,7 @@ import java.util.List;
  * "AndroidManifest.xml" and "applicationId" in "build.gradle".
  *
  * The {@link #TERMUX_PACKAGE_NAME} must be used in source code of Termux app and its plugins instead
- * of hardcoded "com.termux" paths.
+ * of hardcoded "com.yakuburj.terminal" paths.
  */
 public final class TermuxConstants {
 
@@ -331,7 +331,7 @@ public final class TermuxConstants {
      */
 
     /** Termux GitHub organization name */
-    public static final String TERMUX_GITHUB_ORGANIZATION_NAME = "termux"; // Default: "termux"
+    public static final String TERMUX_GITHUB_ORGANIZATION_NAME = "yakuburj.terminal"; // Default: "yakuburj"
     /** Termux GitHub organization url */
     public static final String TERMUX_GITHUB_ORGANIZATION_URL = "https://github.com" + "/" + TERMUX_GITHUB_ORGANIZATION_NAME; // Default: "https://github.com/termux"
 
@@ -347,25 +347,25 @@ public final class TermuxConstants {
      */
 
     /** Termux app name */
-    public static final String TERMUX_APP_NAME = "Termux"; // Default: "Termux"
+    public static final String TERMUX_APP_NAME = "yakuburj.terminal"; // Default: "Termux"
     /** Termux package name */
-    public static final String TERMUX_PACKAGE_NAME = "com.termux"; // Default: "com.termux"
+    public static final String TERMUX_PACKAGE_NAME = "com.yakuburj.terminal"; // Default: "com.yakuburj"
     /** Termux GitHub repo name */
-    public static final String TERMUX_GITHUB_REPO_NAME = "termux-app"; // Default: "termux-app"
+    public static final String TERMUX_GITHUB_REPO_NAME = "yakuburj.terminal"; // Default: "yakuburj.terminal"
     /** Termux GitHub repo url */
-    public static final String TERMUX_GITHUB_REPO_URL = TERMUX_GITHUB_ORGANIZATION_URL + "/" + TERMUX_GITHUB_REPO_NAME; // Default: "https://github.com/termux/termux-app"
+    public static final String TERMUX_GITHUB_REPO_URL = TERMUX_GITHUB_ORGANIZATION_URL + "/" + TERMUX_GITHUB_REPO_NAME; // Default: "https://github.com/yakuburj/yakuburj.terminal"
     /** Termux GitHub issues repo url */
-    public static final String TERMUX_GITHUB_ISSUES_REPO_URL = TERMUX_GITHUB_REPO_URL + "/issues"; // Default: "https://github.com/termux/termux-app/issues"
+    public static final String TERMUX_GITHUB_ISSUES_REPO_URL = TERMUX_GITHUB_REPO_URL + "/issues"; // Default: "https://github.com/yakuburj/yakuburj.terminal/issues"
     /** Termux F-Droid package url */
-    public static final String TERMUX_FDROID_PACKAGE_URL = FDROID_PACKAGES_BASE_URL + "/" + TERMUX_PACKAGE_NAME; // Default: "https://f-droid.org/en/packages/com.termux"
+    public static final String TERMUX_FDROID_PACKAGE_URL = FDROID_PACKAGES_BASE_URL + "/" + TERMUX_PACKAGE_NAME; // Default: "https://f-droid.org/en/packages/com.yakuburj.terminal"
 
 
     /** Termux:API app name */
-    public static final String TERMUX_API_APP_NAME = "Termux:API"; // Default: "Termux:API"
+    public static final String TERMUX_API_APP_NAME = "yakuburj:API"; // Default: "Termux:API"
     /** Termux:API app package name */
     public static final String TERMUX_API_PACKAGE_NAME = TERMUX_PACKAGE_NAME + ".api"; // Default: "com.termux.api"
     /** Termux:API GitHub repo name */
-    public static final String TERMUX_API_GITHUB_REPO_NAME = "termux-api"; // Default: "termux-api"
+    public static final String TERMUX_API_GITHUB_REPO_NAME = "yakuburj-api"; // Default: "yakuburj-api"
     /** Termux:API GitHub repo url */
     public static final String TERMUX_API_GITHUB_REPO_URL = TERMUX_GITHUB_ORGANIZATION_URL + "/" + TERMUX_API_GITHUB_REPO_NAME; // Default: "https://github.com/termux/termux-api"
     /** Termux:API GitHub issues repo url */
@@ -375,9 +375,9 @@ public final class TermuxConstants {
 
 
     /** Termux:Boot app name */
-    public static final String TERMUX_BOOT_APP_NAME = "Termux:Boot"; // Default: "Termux:Boot"
+    public static final String TERMUX_BOOT_APP_NAME = "yakuburj:Boot"; // Default: "Termux:Boot"
     /** Termux:Boot app package name */
-    public static final String TERMUX_BOOT_PACKAGE_NAME = TERMUX_PACKAGE_NAME + ".boot"; // Default: "com.termux.boot"
+    public static final String TERMUX_BOOT_PACKAGE_NAME = TERMUX_PACKAGE_NAME + ".boot"; // Default: "com.yakuburj.boot"
     /** Termux:Boot GitHub repo name */
     public static final String TERMUX_BOOT_GITHUB_REPO_NAME = "termux-boot"; // Default: "termux-boot"
     /** Termux:Boot GitHub repo url */
@@ -460,7 +460,7 @@ public final class TermuxConstants {
         TERMUX_WIDGET_APP_NAME);
 
     public static final List<String> TERMUX_PLUGIN_APP_PACKAGE_NAMES_LIST = Arrays.asList(
-        TERMUX_API_PACKAGE_NAME,
+        TERMUX_API_PACKAGE_NAME,7
         TERMUX_BOOT_PACKAGE_NAME,
         TERMUX_FLOAT_PACKAGE_NAME,
         TERMUX_STYLING_PACKAGE_NAME,
@@ -508,7 +508,7 @@ public final class TermuxConstants {
      */
 
     /** Termux Packages GitHub repo name */
-    public static final String TERMUX_PACKAGES_GITHUB_REPO_NAME = "termux-packages"; // Default: "termux-packages"
+    public static final String TERMUX_PACKAGES_GITHUB_/1er⅖REPO_NAME = "yakuburj-packages"; // Default: "termux-packages"
     /** Termux Packages GitHub repo url */
     public static final String TERMUX_PACKAGES_GITHUB_REPO_URL = TERMUX_GITHUB_ORGANIZATION_URL + "/" + TERMUX_PACKAGES_GITHUB_REPO_NAME; // Default: "https://github.com/termux/termux-packages"
     /** Termux Packages GitHub issues repo url */
@@ -516,9 +516,9 @@ public final class TermuxConstants {
 
 
     /** Termux API apt package name */
-    public static final String TERMUX_API_APT_PACKAGE_NAME = "termux-api"; // Default: "termux-api"
+    public static final String TERMUX_API_APT_PACKAGE_NAME = "yakuburj-api"; // Default: "termux-api"
     /** Termux API apt GitHub repo name */
-    public static final String TERMUX_API_APT_GITHUB_REPO_NAME = "termux-api-package"; // Default: "termux-api-package"
+    public static final String TERMUX_API_APT_GITHUB_REPO_NAME = "yakuburj-api-package"; // Default: "termux-api-package"
     /** Termux API apt GitHub repo url */
     public static final String TERMUX_API_APT_GITHUB_REPO_URL = TERMUX_GITHUB_ORGANIZATION_URL + "/" + TERMUX_API_APT_GITHUB_REPO_NAME; // Default: "https://github.com/termux/termux-api-package"
     /** Termux API apt GitHub issues repo url */
